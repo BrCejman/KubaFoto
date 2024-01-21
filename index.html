@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Lato"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    />
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/w3.css" />
+    <link rel="stylesheet" type="text/css" href="css/w3-parallax.css" />
+    <link rel="stylesheet" href="css/horizontal.css" />
+
+    <title>Kubusiowa Fotografia</title>
+  </head>
+  <body>
+
+    <div class="w3-top">
+      <div class="w3-bar w3-text-black" id="myNavbar">
+        <a
+          class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right"
+          href="javascript:void(0);"
+          onclick="toggleFunction()"
+          title="Toggle Navigation Menu"
+        >
+          <i class="fa fa-bars"></i>
+        </a>
+        <a href="#about" class="w3-bar-item w3-button w3-hide-small"
+          ><i class="fa fa-user"></i>O mnie</a
+        >
+        <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"
+          ><i class="fa fa-th"></i>PORTFOLIO</a
+        >
+        <a href="#contact" class="w3-bar-item w3-button w3-hide-small"
+          ><i class="fa fa-envelope"></i>Kontakt</a
+        >
+      </div>
+
+      <div
+        id="navDemo"
+        class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium"
+      >
+        <a
+          href="#about"
+          class="w3-bar-item w3-button"
+          onclick="toggleFunction()"
+          >O mnie</a
+        >
+        <a
+          href="#portfolio"
+          class="w3-bar-item w3-button"
+          onclick="toggleFunction()"
+          >PORTFOLIO</a
+        >
+        <a
+          href="#contact"
+          class="w3-bar-item w3-button"
+          onclick="toggleFunction()"
+          >Kontakt</a
+        >
+      </div>
+    </div>
+
+    <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+      <div class="w3-display-middle" style="white-space:nowrap;">
+        <span
+          class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity" id="city-life"
+          >Witam<span class="w3-hide-small">| Zapraszam!</span></span
+        >
+      </div>
+    </div>
+    <div class="w3-content w3-container w3-padding-64" id="about">
+      <h3 class="w3-center">O mnie</h3>
+      <p class="w3-center"><em>Kocham fotografować</em></p>
+      <p>
+  
+      </p>
+      <div class="w3-row">
+        <div class="w3-col m6 w3-center w3-padding-large">
+          <p>
+            <b
+              ><i class="fa fa-user w3-margin-right"></i>Jakub Wołoch (Fotograf)</b
+            >
+          </p>
+          <img
+            src="Photos/Fotograf.jpg"
+            class="w3-round w3-image w3-opacity w3-hover-opacity-off"
+            alt="Moje Zdjęcie"
+            width="500"
+            height="333"
+          />
+        </div>
+
+        <div class="w3-col m6 w3-hide-small w3-padding-large">
+          <p>
+            Jestem Jakub Wołoch, fotograf i były piłkarz. Urodziłem się w 2001 roku w Gryficach, otoczony pięknem natury
+            i pasją do dwóch odmiennych światów - sportu i sztuki. Moja przygoda z futbolem zaczęła się już we wczesnym dzieciństwie,
+            reprezentując z dumą barwy miejscowego klubu. Jednak los rzucił mi wyzwanie w postaci kontuzji, co skierowało moją
+            drogę życiową w zupełnie nowym kierunku.Po zakończeniu kariery piłkarskiej postanowiłem odkryć nowe obszary wyrażania siebie.
+            Studiując sztukę i fotografię, odkryłem fascynujący świat obiektywu, w którym mogłem oddać się pasji do tworzenia niezapomnianych obrazów.
+            Moje prace często inspirują się pięknem codziennego życia, ludzi i miejsc, które mnie otaczają.
+          </p>
+        </div>
+    <h3 class="w3-center">Sesje Indywidualne</h3>
+    <div id="scroll">
+      <img
+        src="Photos/blondynka2.jpg"
+        onclick="onClick(this)"
+        class="w3-hover-opacity"
+        alt="Zdjęcie pani młodej"
+      />
+      <img
+        src="Photos/panmlody.jpg"
+        onclick="onClick(this)"
+        class="w3-hover-opacity"
+        alt="Zdjęcie pana młodego"
+      />
+      <img
+        src="Photos/panstwomlodzi.jpg"
+        onclick="onClick(this)"
+        class="w3-hover-opacity"
+        alt="Zdjęcie pary młodej"
+      />
+      <img
+        src="Photos/blondynka.jpg"
+        onclick="onClick(this)"
+        class="w3-hover-opacity"
+        alt="Zdjęcie kobiety"
+      />
+      <img
+        src="Photos/panimloda.jpg"
+        onclick="onClick(this)"
+        class="w3-hover-opacity"
+        alt="Zdjęcie panny młodej"
+      />
+      <img
+        src="Photos/paramloda4.jpg"
+        onclick="onClick(this)"
+        class="w3-hover-opacity"
+        alt="Zdjęcie pary młodej"
+      />
+      <img
+        src="Photos/paramloda3.jpg"
+        onclick="onClick(this)"
+        class="w3-hover-opacity"
+        alt="Zdjęcie pary młodej"
+      />
+      <img
+        src="Photos/Paramloda2.jpg"
+        onclick="onClick(this)"
+        class="w3-hover-opacity"
+        alt="Zdjęcie pary młodej"
+      />
+      <img
+        src="Photos/most zdjecie.jpg"
+        onclick="onClick(this)"
+        class="w3-hover-opacity"
+        alt="Zdjęcie dwóch kobiet"
+      />
+      <img
+        src="Photos/most zdjecie2.jpg"
+        onclick="onClick(this)"
+        class="w3-hover-opacity"
+        alt="Zdjęcie dwóch kobiet"
+      />
+      <div id="modal01" class="w3-modal" onclick="this.style.display='none'">
+        <span class="w3-button w3-display-topright" title="Close Modal Image"
+          ><i class="fas fa-times"></i> Close</span
+        >
+        <div
+          class="w3-modal-content w3-animate-opacity w3-center w3-transparent "
+        >
+          <img id="img01" class="w3-image" />
+          <p id="caption" class="w3-opacity w3-large"></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-content w3-container w3-padding-64" id="portfolio">
+      <h3 class="w3-center">Sesje Imprezowe</h3>
+      <p class="w3-center">
+        >
+      </p>
+      <br />
+
+      <div class="w3-row-padding w3-center">
+        <div class="w3-col m3">
+          <img
+            src="Photos/Dziecko1.jpg"
+            style="width:100%"
+            onclick="onClick(this)"
+            class="w3-text-white w3-hover-opacity"
+            alt="Zdjęcie dziecka"
+          />
+        </div>
+
+        <div class="w3-col m3">
+          <img
+            src="Photos/Rodzinka1.jpg"
+            style="width:100%"
+            onclick="onClick(this)"
+            class="w3-hover-opacity"
+            alt="Zdjęcie Rodziny"
+          />
+        </div>
+
+        <div class="w3-col m3">
+          <img
+            src="Photos/Dziecko2.jpg"
+            style="width:100%"
+            onclick="onClick(this)"
+            class="w3-hover-opacity"
+            alt="Zdjęcie dziecka"
+          />
+        </div>
+
+        <div class="w3-col m3">
+          <img
+            src="Photos/Rodzinka3.jpg"
+            style="width:100%"
+            onclick="onClick(this)"
+            class="w3-hover-opacity"
+            alt="Zdjęcie Rodziny"
+          />
+        </div>
+      </div>
+
+      <div class="w3-row-padding w3-center w3-section">
+        <div class="w3-col m3">
+          <img
+            src="Photos/Impreza4.jpg"
+            style="width:100%"
+            onclick="onClick(this)"
+            class="w3-hover-opacity"
+            alt="Zdjęcie z imprezy"
+          />
+        </div>
+
+        <div class="w3-col m3">
+          <img
+            src="Photos/Impreza1.jpg"
+            style="width:100%"
+            onclick="onClick(this)"
+            class="w3-hover-opacity w3-text-white"
+            alt="Zdjęcie z imprezy"
+          />
+        </div>
+
+        <div class="w3-col m3">
+          <img
+            src="Photos/Impreza2.jpg"
+            style="width:100%"
+            onclick="onClick(this)"
+            class="w3-hover-opacity"
+            alt="Zdjęcie z imprezy"
+          />
+        </div>
+        <div class="w3-col m3">
+          <img
+            src="Photos/Impreza3.jpg"
+            style="width:100%"
+            onclick="onClick(this)"
+            class="w3-hover-opacity"
+            alt="Zdjęcie z imprezy"
+          />
+        </div>
+      </div>
+    </div>
+
+    <div id="modal01" class="w3-modal" onclick="this.style.display='none'">
+      <span class="w3-button w3-display-topright" title="Close Modal Image"
+        ><i class="fas fa-times"></i
+      ></span>
+      <div
+        class="w3-modal-content w3-animate-opacity w3-center w3-transparent "
+      >
+        <img id="img01" class="w3-image" />
+        <p id="caption" class="w3-opacity w3-large"></p>
+      </div>
+    </div>
+
+    <div class="bgimg-3 w3-display-container w3-opacity-min">
+      <div class="w3-display-middle">
+        <span class="w3-xxlarge w3-text-black w3-wide">Kontakt</span>
+      </div>
+    </div>
+
+    <div class="w3-content w3-container w3-padding-64" id="contact">
+
+      <div class="w3-row w3-padding-32 w3-section">
+        <div class="w3-col m4 w3-container">
+          <img
+            src="Photos/Autko.jpg"
+            alt="Zdjęcie auta"
+            class="w3-image w3-round"
+            style="width:100%"
+          />
+        </div>
+        <div class="w3-col m8 w3-panel">
+          <div class="w3-large w3-margin-bottom">
+            <i
+              class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"
+            ></i>
+            Gryfice, Zachodnio-Pomorskie<br />
+            <i
+              class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"
+            ></i>
+            Telefon: 576 062 250<br />
+            <i
+              class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"
+            ></i>
+           kubusiowafotografia@gmail.com<br />
+          </div>
+          <p>
+            Kontaktuj się jeśli potrzebujesz fotografa! <i class="fas fa-camera-retro"></i>
+            <br />
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <footer class="w3-center">
+      <a href="#home" class="w3-button w3-grey"
+        ><i class="fa fa-arrow-up w3-margin-right"></i>Powrót do góry.
+      </a>
+      <div class="w3-xlarge w3-section">
+        <i id="icon-padding" class="fab fa-facebook-f w3-text-blue w3-hover-opacity "></i>
+        <p>Facebook: Kubusiowa Fotografia</p>
+        <i id="icon-padding" class="fab fa-instagram w3-text-red w3-hover-opacity"></i>
+        <p>Kubusiowa_Fotografia</p>
+      </div>
+      <p>
+          Designed by BC 2024</a
+        >
+      </p>
+    </footer>
+
+    <script>
+      function onClick(element) {
+        document.getElementById("img01").src = element.src;
+        document.getElementById("modal01").style.display = "block";
+        var captionText = document.getElementById("caption");
+        captionText.innerHTML = element.alt;
+      }
+
+      window.onscroll = function() {
+        myFunction();
+      };
+      function myFunction() {
+        var navbar = document.getElementById("myNavbar");
+        if (
+          document.body.scrollTop > 100 ||
+          document.documentElement.scrollTop > 100
+        ) {
+          navbar.className =
+            "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+        } else {
+          navbar.className = navbar.className.replace(
+            " w3-card w3-animate-top w3-white",
+            ""
+          );
+        }
+      }
+
+      function toggleFunction() {
+        var x = document.getElementById("navDemo");
+        if (x.className.indexOf("w3-show") == -1) {
+          x.className += " w3-show";
+        } else {
+          x.className = x.className.replace(" w3-show", "");
+        }
+      }
+    </script>
+  </body>
+</html>
